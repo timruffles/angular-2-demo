@@ -5,7 +5,6 @@ export { HelloComponent };
 
 @Component({
   selector: 'hello-angular',
-  providers: [Greeter],
   template: '<h1>{{ message }}</h1>',
 })
 class HelloComponent {

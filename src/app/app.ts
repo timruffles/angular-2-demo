@@ -1,4 +1,6 @@
-import { HelloComponent } from "./HelloComponent";
+import { FrontPage } from "./FrontPage";
 import { bootstrap } from "angular2/angular2";
+import { Greeter } from './Greeter';
 
-bootstrap(HelloComponent);
+
+bootstrap(FrontPage, [Greeter]);
